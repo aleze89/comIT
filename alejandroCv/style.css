@@ -11,7 +11,7 @@ body{
     background-attachment: fixed;
     justify-content: space-evenly;
     align-items: center;
-    background:linear-gradient(rgba(0,0,0,.1) , rgba(0,0,0,.1)), url("../img/frontal.jpg");
+    background: linear-gradient(rgba(0,0,0,.4) , rgba(255,255,255,.4)), url(../img/frontal.jpg);
     background-size: cover;
    
     
@@ -24,8 +24,10 @@ body{
 .caratula{
     width: 200px;
     height: 200px;
+    
+    -webkit-transform: scaleX(-1);
     border-radius: 50%;
-    border: 2px solid #dcdfe6;
+    border: 2px solid#9da6a3;
    
 }
 
