@@ -58,16 +58,32 @@ body{
     background-color: rgba(188, 117, 191,.4);
     text-align: center;
 }
-article>h2{
+.tituloObjetivo{
     font-size: xx-large;
     margin: 20px 20px 0;
 }
-article>ul>li{
+.objetivo{
+    padding: 0 22px;
+    margin: 10px 0
+}
+.objetivo>li{
     font-size: larger;
     margin: 0 20px 10px;
+    text-align: start;
 }
 .selector>h2{
     font-size: xx-large;
+}
+.tituloTecnologias{
+    margin: 0 10px;
+}
+.tecnologias{
+    margin: 10px 0;
+    text-align: start;
+}
+.tecnologias>li>p{
+    white-space: pre-wrap;
+    font-size: larger;
 }
 footer{
     display: flex;
