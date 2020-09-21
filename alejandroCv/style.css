@@ -44,19 +44,41 @@ body{
     margin: 0;
     color: #e9ebf0;
     text-transform: uppercase;
-    }
+}
 
 .nombrePrincipal p{
     margin: 0;
     padding: 10px 20px 30px 35px;
     color: #e9ebf0;
     text-transform: uppercase;
-    }
+}
 
 .selector{
     border-radius: 20px;
     background-color: rgba(188, 117, 191,.4);
     text-align: center;
+}
+    
+.selector>h2{
+    font-size: xx-large;
+  }
+
+ .tituloContacto{
+    font-size: xx-large;
+    margin: 20px 20px 0;
+}
+.contacto{
+    padding: 0 22px;
+    margin: 10px 0;
+}
+.contacto>li{
+    font-size: larger;
+    margin: 0 20px 10px;
+    text-align: start;
+    
+}
+.contacto>li>a{
+    text-decoration: none;
 }
 .tituloObjetivo{
     font-size: xx-large;
@@ -64,26 +86,62 @@ body{
 }
 .objetivo{
     padding: 0 22px;
-    margin: 10px 0
+    margin: 10px 0;
 }
 .objetivo>li{
     font-size: larger;
     margin: 0 20px 10px;
     text-align: start;
 }
-.selector>h2{
+
+.tituloEducacion{
     font-size: xx-large;
+    margin: 20px 20px 0;
 }
-.tituloTecnologias{
-    margin: 0 10px;
-}
-.tecnologias{
+
+.educacion{
+    padding: 0 22px;
     margin: 10px 0;
-    text-align: start;
 }
-.tecnologias>li>p{
-    white-space: pre-wrap;
+.educacion>li{
     font-size: larger;
+    margin: 0 20px 10px;
+    text-align: start;
+    
+}
+
+.tituloLaboral{
+    font-size: xx-large;
+    margin: 20px 20px 0;
+}
+
+.laboral{
+    padding: 0 22px;
+    margin: 10px 0;
+}
+.laboral>li{
+    font-size: larger;
+    margin: 0 20px 10px;
+    text-align: start;
+    
+}
+
+.tituloTecnologias{
+    font-size: xx-large;
+    margin: 20px 20px 0;
+}
+
+.tecnologias{
+    padding: 0 22px;
+    margin: 10px 0;
+    /*tab-size: 20;*/
+}
+.tecnologias>li{
+    font-size: larger;
+    margin: 0 20px 10px;
+    text-align: start;
+   
+    
 }
 footer{
     display: flex;
