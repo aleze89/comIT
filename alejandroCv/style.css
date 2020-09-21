@@ -2,8 +2,7 @@ body{
     height: auto;
     width: auto;
     background-color: #ccc8c8;
-    
-}
+    }
 
 #encabezado{
     display: inline-block;
@@ -13,24 +12,22 @@ body{
     align-items: center;
     background: linear-gradient(rgba(0,0,0,.4) , rgba(255,255,255,.4)), url(../img/frontal.jpg);
     background-size: cover;
-   
-    
-}
+    border-radius: 20px;
+   }
+
 .imagen{
     display: flex;
     justify-content: start;
     opacity: 1;
-}
+    }
+
 .caratula{
     width: 200px;
     height: 200px;
-    
     -webkit-transform: scaleX(-1);
     border-radius: 50%;
     border: 2px solid#9da6a3;
-   
-}
-
+   }
 
 .nombrePrincipal{
     display: flex;
@@ -39,38 +36,57 @@ body{
     margin: auto;
     padding: 0 100px;
     content: normal;
-}
+    }
+
+
 .nombrePrincipal h1{
     padding: 20px 10px;
     margin: 0;
     color: #e9ebf0;
     text-transform: uppercase;
-}
-
+    }
 
 .nombrePrincipal p{
     margin: 0;
     padding: 10px 20px 30px 35px;
     color: #e9ebf0;
     text-transform: uppercase;
+    }
+
+.selector{
+    border-radius: 20px;
+    background-color: rgba(188, 117, 191,.4);
+    text-align: center;
 }
-    
+article>h2{
+    font-size: xx-large;
+    margin: 20px 20px 0;
+}
+article>ul>li{
+    font-size: larger;
+    margin: 0 20px 10px;
+}
+.selector>h2{
+    font-size: xx-large;
+}
 footer{
     display: flex;
     height: 40px;
-    background:#6168b8;
+    background: rgba(97, 104, 184,.3);
     color: #252529;
     border-radius: 20px;
     justify-content: center;
     align-items: center;
-}
+    border: 2px solid #000;
+    }
 
-a:hover{
+footer a:hover{
     background-color: #252529;
     padding: 10px 20px;
     color: #dcdce8;
     border-radius: 20px;
-}
+    border: 2px solid #fff;
+    }
     
     
 .enlace{
@@ -78,8 +94,7 @@ a:hover{
     display: flex;
     text-decoration: none;
     margin: 10px 20px;
-    
-}
+    }
     
     
 
