@@ -2,6 +2,7 @@ body{
     height: auto;
     width: auto;
     background-color: #ccc8c8;
+    font-family: 'Source Serif Pro', serif;
     }
 
 #encabezado{
@@ -40,17 +41,19 @@ body{
 
 
 .nombrePrincipal h1{
-    padding: 20px 10px;
+    padding: 20px 10px 10px 25px;
     margin: 0;
     color: #e9ebf0;
     text-transform: uppercase;
+    font-size: x-large;;
 }
 
 .nombrePrincipal p{
     margin: 0;
-    padding: 10px 20px 30px 35px;
+    padding: 10px 25px 30px 30px;
     color: #e9ebf0;
     text-transform: uppercase;
+    font-size: larger;;
 }
 
 .selector{
